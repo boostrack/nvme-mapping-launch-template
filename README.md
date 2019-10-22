@@ -1,9 +1,9 @@
 # NVMe Mapping Launch Template
 
-An fully working implemention of the following [blog post](https://www.laurentgodet.com/2019/10/ebs-nvme-block-device-mapping-using-volume-ids/), which describes how to automatically map and mount all EBS NVMe Block Devices to their corresponding standards paths on boot time, using Volume IDs.
+An fully working implemention of the following [blog post](https://www.laurentgodet.com/2019/10/ebs-nvme-block-device-mapping-using-volume-ids/), which describes how to automatically map all EBS NVMe Block Devices to the standard naming path convention using Volume Ids, create a file system for these volumes and mount them to their corresponding mount point directory.
 
 This terraform code sample includes:
-- Autoscallng group and Launch Template 
+- Autoscallng group and Launch Template
 - Cloud Init userdata scripts to do the heavy lifting
 - IAM policies required to perform the mapping
 
