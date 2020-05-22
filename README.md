@@ -1,6 +1,6 @@
 # NVMe Mapping Launch Template
 
-An fully working implemention of the following [blog post](https://www.laurentgodet.com/2019/10/ebs-nvme-block-device-mapping-using-volume-ids/), which describes how to automatically map all EBS NVMe Block Devices to the standard naming path convention using Volume Ids, create a file system for these volumes and mount them to their corresponding mount point directory.
+A fully working implemention of the following [blog post](https://www.laurentgodet.com/2019/10/ebs-nvme-block-device-mapping-using-volume-ids/), which describes how to automatically map all EBS NVMe Block Devices to the standard naming path convention using Volume IDs, create a file system for these volumes and mount them to their corresponding mount point directory.
 
 This terraform code sample includes:
 - Autoscallng group and Launch Template
@@ -14,7 +14,7 @@ Generate an ssh key
 $ ssh-keygen -t rsa -f ~/.ssh/nvme-demo -C "nvme demo"
 ```
 
-Replace the dummy values in `values.tfvars` with your own.
+Replace the dummy values in `values.tfvars` with your own
 ```bash
 $ cd terraform
 
